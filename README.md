@@ -27,7 +27,7 @@ And navigate to http://127.0.0.1:8000/gocardless/.
 ### Links
 `<link>` : <https://github.com/JhonUwU0934/todolist>
 
-###Trello task list
+### Trello task list
 (En progreso de edición)
 - [x] GFM task list 1
 - [x] GFM task list 2

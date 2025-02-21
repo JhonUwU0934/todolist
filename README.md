@@ -1,8 +1,7 @@
 ### ToDoLits sample application
 
 # Django
-[![django](https://www.svgrepo.com/svg/353657/django-icon "django")](https://www.svgrepo.com/svg/353657/django-icon "django")
-![](https://www.pngwing.com/es/free-png-ahopp)
+![Image](https://github.com/user-attachments/assets/f8e4b52e-d873-43ab-88fa-a39704fe5ef0)
 
 ### Project Setup
 The first thing to do is to clone the repository:

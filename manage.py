@@ -3,7 +3,7 @@
 import os
 import sys
 
-#Bruno es re gay 
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todolist.settings')

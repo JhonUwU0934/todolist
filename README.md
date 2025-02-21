@@ -4,7 +4,7 @@
 [![django](https://www.svgrepo.com/svg/353657/django-icon "django")](https://www.svgrepo.com/svg/353657/django-icon "django")
 ![](https://www.pngwing.com/es/free-png-ahopp)
 
-###Project Setup
+### Project Setup
 The first thing to do is to clone the repository:
 > $ git clone https://github.com/JhonUwU0934/todolist.git
 $ cd todolist
@@ -24,7 +24,7 @@ Once pip has finished downloading the dependencies (not necessary at now):
 
 And navigate to http://127.0.0.1:8000/gocardless/.
 
-###Links
+### Links
 `<link>` : <https://github.com/JhonUwU0934/todolist>
 
 ###Trello task list

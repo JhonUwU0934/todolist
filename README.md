@@ -21,13 +21,13 @@ Once pip has finished downloading the dependencies (not necessary at now):
 >(env)$ cd project
 (env)$ python manage.py runserver
 
-And navigate to http://127.0.0.1:8000/gocardless/.
+And navigate to http://127.0.0.1:8000/.
 
 ### Links
 `<link>` : <https://github.com/JhonUwU0934/todolist>
 
 ### Trello task list
-(En progreso de edición)
+(In editing progress)
 - [x] GFM task list 1
 - [x] GFM task list 2
 - [ ] GFM task list 3

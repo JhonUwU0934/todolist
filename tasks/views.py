@@ -4,6 +4,6 @@ from .models import *
 # Create your views here.
 
 def index(request):
-    ontasks = pending_tasks.objects.all()
-    context = {'tasks': ontasks}
+    tasks = pending_tasks.objects.all()
+    context = {'tasks': tasks}
     return render (request, "tasks/index.html", context)

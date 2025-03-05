@@ -8,6 +8,15 @@
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.jpg'%}">
+        {% if request.user.is_authenticated %}
+        <p>{{request.user}}</p>
+        <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit">Logout</button>
+        </form>
+        {% else %}
+        <a href="{% url 'login' %}">Login</a>
+        {% endif %}  
         <title>Todo List</title>
 
     </head>

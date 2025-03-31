@@ -22,7 +22,7 @@
             font-size: 24px;
             font-weight: bold;
         }
-        .login-container {
+        .registro-container {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -31,10 +31,11 @@
             margin: 0;
         }
 
-        .login-box {
+        .registro-box {
             background-color: #eaeaea;
             position: absolute;
-            left: 32%;
+            top: 18%;
+            left: 36%;
             padding: 15px;
             border-radius: 15px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -42,14 +43,14 @@
             width: 80%;
         }
 
-        .login-box label {
+        .registro-box label {
             font-size: 16px;
             font-weight: bold;
             display: block;
             margin-bottom: 10px;
         }
 
-        .login-box input {
+        .registro-box input {
             width: 90%;
             padding: 10px;
             margin-bottom: 20px;
@@ -59,7 +60,7 @@
             outline: none;
         }
 
-        .login-box input:focus {
+        .registro-box input:focus {
             border-color: #0044cc;
             box-shadow: 0 0 5px rgba(0, 68, 204, 0.5);
         }
@@ -69,10 +70,8 @@
             color: white;
             border: none;
             border-radius: 8px;
-            padding: 4px 8px;
-            font-size: 16px;
             cursor: pointer;
-            width: auto;
+            width: 40%;
             font-weight: bold;
         }
 
@@ -83,14 +82,17 @@
 </head>
 <body>
     <div class="header">
-        GESTOR DE TAREAS
+        <a href="{% url 'index' %}" style="color: white;" > GESTOR DE TAREAS</a>
     </div>
-    <div"login-container">
-        <div class="login-box"> 
+    <div"registro-container">
+        <div class="registro-box"> 
             <form method="POST">
                 {% csrf_token %}
                 
+                <h2 style="text-align: center; margin-bottom: 20px;">REGISTRAR USUARIO</h2>
     
+
+        
                 <label for="id_username">USUARIO:</label>
                 {{ form.username }}
     
@@ -107,7 +109,7 @@
                     </ul>
                 {% endif %}
     
-                <input style="margin-top:10px;" class="submit-button" type="submit" value="Registrar">
+                <input style="margin-top:10px; font-size: 16px;" class="submit-button" type="submit" value="REGISTRAR">
             </form>
             <p>¿Ya tienes una cuenta? <a href="{% url 'login' %}">Iniciar sesión</a></p>
         </div>
